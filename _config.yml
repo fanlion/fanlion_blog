@@ -4,11 +4,11 @@
 
 # Site
 title: 李繁的个人博客
-subtitle:
-description:
+subtitle: fanlion personal blog
+description: 李繁 fanlion 个人博客 
 author: fan.lion
-language:
-timezone:
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
