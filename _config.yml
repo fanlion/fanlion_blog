@@ -4,7 +4,7 @@
 
 # Site
 title: 李繁的个人博客
-subtitle: fanlion personal blog
+subtitle: 让理想更远大点
 description: 李繁 fanlion 个人博客 
 author: fan.lion
 language: zh-CN
@@ -12,7 +12,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://fanlion.cc
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
