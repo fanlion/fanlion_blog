@@ -81,6 +81,10 @@ deploy:
   repo: git@github.com:fanlion/fanlion.github.io.git
   branch: master
 
+# 百度主动推送
+deploy:
+ type: baidu_url_submitter
+
 jsonContent:
     meta: false
     pages: false
@@ -99,3 +103,10 @@ jsonContent:
       excerpt: false
       categories: false
       tags: true
+
+# 百度主动推送
+baidu_url_submit:
+  count: 100 # 提交最新的一个链接
+  host: www.fanlion.cc # 在百度站长平台中注册的域名
+  token: OgNKp1X9JN3uHm0i
+  path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里
