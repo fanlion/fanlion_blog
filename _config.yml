@@ -77,13 +77,13 @@ theme: yilia
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:fanlion/fanlion.github.io.git
-  branch: master
+  # git deploy
+  - type: git
+    repo: git@github.com:fanlion/fanlion.github.io.git
+    branch: master
 
-# 百度主动推送
-deploy:
- type: baidu_url_submitter
+  # baidu push
+  - type: baidu_url_submitter
 
 jsonContent:
     meta: false
