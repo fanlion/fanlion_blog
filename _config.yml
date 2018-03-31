@@ -81,7 +81,7 @@ deploy:
   - type: git
     repo: git@github.com:fanlion/fanlion.github.io.git
     branch: master
-
+    
   # baidu push
   - type: baidu_url_submitter
 
